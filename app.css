@@ -1,0 +1,1253 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.container>header>nav {
+    padding-bottom: 60px;
+}
+
+.container>header>nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container>header>nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 33px;
+}
+
+
+.container>header>nav>h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 1000;
+    font-size: 23px;
+}
+
+
+.container>header>nav>ul>li {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-transform: uppercase;
+}
+
+
+.container>header>nav>.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+
+
+
+.about-phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 39px 20px 30px 26px;
+    background: #DCE5E2;
+    border-radius: 30px;
+}
+
+.about-phone>.phone-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 132px;
+}
+
+.about-phone>.phone-c>.phone-c-txt {
+    margin-left: -60px;
+}
+
+
+.about-phone>.phone-c>.phone-c-txt>h1 {
+    color: #000;
+    font-family: Readex Pro;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69.6px;
+    margin-bottom: 19px;
+}
+
+.about-phone>.phone-c>.phone-c-txt>p {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin-bottom: 30px;
+}
+
+.about-phone>.phone-c>.phone-c-txt>button {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-transform: capitalize;
+    padding: 14px 53px;
+    border-radius: 30px;
+    background: none;
+    border: 1px solid black;
+}
+
+.offers {
+    margin-top: 75px;
+}
+
+
+.offers>h1 {
+    text-align: center;
+    color: #000;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px;
+
+}
+
+.offers>p {
+    font-family: 'Readex Pro', sans-serif;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 16.8px;
+    padding-top: 9px;
+}
+
+
+.offers>.offers-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    gap: 0px;
+}
+
+.offers>.offers-c>.offers-left-div>.laptop-watch-c {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.offers>.offers-c>.offers-right-div>.phone-planwet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.offers>.offers-c>.offers-left-div>.laptop-watch-c>.laptop {
+    background: #fff;
+    box-shadow: 0 0 10px;
+    width: 690px;
+    height: 470px;
+    transition: .2s;
+}
+
+
+.offers>.offers-c>.offers-left-div>.laptop-watch-c>.laptop:hover {
+
+    box-shadow: 0;
+    background: #BCC6CC;
+    transform: scale(1.02);
+}
+
+
+.offers>.offers-c>.offers-left-div>.laptop-watch-c>.laptop>.laptop-txt>p {
+    color: #000;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin-right: 42px;
+}
+
+.offers>.offers-c>.offers-left-div>.laptop-watch-c>.laptop>.laptop-txt>h1 {
+    color: #000;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    margin-right: 42px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+    font-weight: 600;
+}
+
+
+.offers>.offers-c>.offers-left-div>.laptop-watch-c>.watch {
+    width: 690px;
+    height: 270px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    align-items: center;
+    transition: .2s;
+}
+
+
+.offers>.offers-c>.offers-left-div>.laptop-watch-c>.watch:hover {
+    background: #efe0bb;
+    transform: scale(1.01);
+}
+
+
+.offers>.offers-c>.offers-left-div>.laptop-watch-c>.watch>.watch-txt {
+    margin-right: 40px;
+}
+
+
+.offers>.offers-c>.offers-left-div>.laptop-watch-c>.watch>.watch-txt>p {
+
+    color: #000;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+
+}
+
+
+.offers>.offers-c>.offers-left-div>.laptop-watch-c>.watch>.watch-txt>h1 {
+
+    color: #000;
+    text-align: right;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+
+}
+
+
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.phone {
+    width: 317px;
+    height: 792px;
+    border-radius: 16px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px;
+    border-radius: 32px;
+    margin-left: 32px;
+    transition: .2s;
+}
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.phone:hover {
+
+    transform: scale(1.01);
+    background: #7060e7ab;
+}
+
+
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.phone>img {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.phone>.phone-txt>p {
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    line-height: 19.2px;
+    margin-top: 41px;
+}
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.phone>.phone-txt>h1 {
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+
+}
+
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.planwet {
+    width: 360px;
+    height: 792px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 32px;
+    box-shadow: 0 0 10px;
+    transition: .2s;
+}
+
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.planwet:hover {
+    background: #c8f4d0;
+    transform: scale(1.04);
+}
+
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.planwet>.planwet-txt>p {
+
+    text-align: center;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+
+}
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.planwet>.planwet-txt>p:hover {
+    color: #fff;
+}
+
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.planwet>.planwet-txt>h1 {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38.4px;
+}
+
+
+
+.offers>.offers-c>.offers-right-div>.phone-planwet>.planwet>.planwet-txt {
+    margin-bottom: 40px;
+}
+
+
+
+.selled-items {
+    margin-bottom: 40px;
+}
+
+.selled-items>h1 {
+    text-align: center;
+    color: #000;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+
+
+
+.selled-items>p {
+    text-align: center;
+    color: #000;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+
+.selled-items>.selled-items-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.selled-items>.selled-items-c>.macbook>h1 {
+    color: #000;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    width: 261px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    margin-top: 37px;
+    line-height: 27.5px;
+}
+
+.selled-items>.selled-items-c>.macbook>p {
+    color: #4B4B4B;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    width: 261px;
+    margin-bottom: 25px;
+    margin-top: 9px;
+    line-height: 16.8px;
+}
+
+.selled-items>.selled-items-c>.macbook>span {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 21.6px;
+}
+
+
+
+.selled-items>.selled-items-c>.watch-item>h1 {
+    color: #000;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    width: 261px;
+    font-weight: 400;
+    margin-top: 37px;
+    line-height: 27.5px;
+}
+
+.selled-items>.selled-items-c>.watch-item>p {
+    color: #4B4B4B;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    width: 261px;
+    font-weight: 400;
+    margin-bottom: 23px;
+    margin-top: 9px;
+    line-height: 16.8px;
+}
+
+.selled-items>.selled-items-c>.watch-item>span {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    margin-top: 25px;
+}
+
+
+
+.selled-items>.selled-items-c>.macbook-air>h1 {
+    color: #000;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    width: 261px;
+    font-weight: 400;
+    margin-top: 37px;
+    line-height: 27.5px;
+}
+
+.selled-items>.selled-items-c>.macbook-air>p {
+    color: #4B4B4B;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin-bottom: 23px;
+    font-style: normal;
+    width: 261px;
+    font-weight: 400;
+    margin-top: 9px;
+    line-height: 16.8px;
+}
+
+
+.selled-items>.selled-items-c>.macbook-air>span {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    margin-top: 25px;
+}
+
+
+.selled-items>.selled-items-c>.ipad>h1 {
+    color: #000;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    width: 261px;
+    font-weight: 400;
+    line-height: 27.5px;
+    margin-top: 37px;
+}
+
+.selled-items>.selled-items-c>.ipad>p {
+    color: #4B4B4B;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin-bottom: 23px;
+    font-style: normal;
+    font-weight: 400;
+    width: 261px;
+    margin-top: 9px;
+    line-height: 16.8px;
+}
+
+
+.selled-items>.selled-items-c>.ipad>span {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    margin-top: 25px;
+}
+
+.best-around>h1 {
+    text-align: center;
+    margin-top: 58px;
+    color: #000;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+
+.best-around>p {
+    text-align: center;
+    color: #000;
+    margin-top: 9px;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+
+
+.best-around>.best-around-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.best-around>.best-around-cards>.best-watch {
+    background: #F8F9FA;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 413px;
+    height: 453px;
+    transition: .2s;
+    border-radius: 30px;
+}
+
+.best-around>.best-around-cards>.best-watch:hover {
+    transform: scale(1.06);
+    background: rgb(247, 242, 170);
+}
+
+
+
+.best-around>.best-around-cards>.best-selling {
+    background: #F8F9FA;
+    width: 413px;
+    border-radius: 30px;
+    height: 453px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: .2s;
+}
+
+.best-around>.best-around-cards>.best-selling:hover {
+    transform: scale(1.06);
+    background: rgb(247, 242, 170);
+}
+
+.best-around>.best-around-cards>.every-product {
+    background: #F8F9FA;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    flex-direction: column;
+    width: 413px;
+    height: 453px;
+    transition: .2s;
+}
+
+.best-around>.best-around-cards>.every-product:hover {
+    transform: scale(1.06);
+    background: rgb(247, 242, 170);
+}
+
+.best-around>.best-around-cards>.best-watch>div>p {
+    text-align: center;
+    color: #000;
+    padding-top: 41px;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+.best-around>.best-around-cards>.best-watch>div>h1 {
+    margin-top: 10px;
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+
+.best-around>.best-around-cards>.best-watch>div>button {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 200px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-transform: capitalize;
+    background: none;
+    border: 1px solid black;
+    padding: 8px 30px;
+    transition: .2s;
+
+}
+
+.best-around>.best-around-cards>.best-watch>div>button:hover {
+    background: rgb(72, 130, 184);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.best-around>.best-around-cards>.best-selling>div>p {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 13px;
+    padding-top: 41px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+.best-around>.best-around-cards>.best-selling>div>h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #000;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+
+.best-around>.best-around-cards>.best-selling>div>button {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 200px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-transform: capitalize;
+    background: none;
+    padding: 8px 30px;
+    border: 1px solid black;
+}
+
+.best-around>.best-around-cards>.best-selling>div>button:hover {
+    background: rgb(72, 130, 184);
+    color: #fff;
+    cursor: pointer;
+}
+
+.best-around>.best-around-cards>.every-product>div>p {
+    text-align: center;
+    color: #000;
+    padding-top: 41px;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+.best-around>.best-around-cards>.every-product>div>h1 {
+    margin-top: 10px;
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+
+.best-around>.best-around-cards>.every-product>div>button {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 200px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-transform: capitalize;
+    background: none;
+    border: 1px solid black;
+    padding: 8px 30px;
+}
+
+
+.best-around>.best-around-cards>.every-product>div>button:hover {
+    background: rgb(72, 130, 184);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.idea {
+    margin-top: 70px;
+}
+
+.idea>h1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+
+.idea>p {
+    color: #000;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+    margin-bottom: 56px;
+}
+
+
+
+
+.idea>.idea-c {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.idea>.idea-c>.idea-ul>ul>li {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    margin-bottom: 28px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.idea>.idea-c>.idea-ul>ul {
+    width: 639px;
+    height: 292px;
+    margin-bottom: 70px;
+}
+
+
+.idea>.see-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 73px;
+    margin-bottom: 50px;
+}
+
+
+.idea>.see-all>p {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    transition: .2s;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.idea>.see-all>img {
+    transition: .2s;
+    padding: 10px;
+}
+
+
+.idea>.see-all>p:hover {
+    color: #fff;
+    background: #000;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.idea>.see-all>img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.search-wrap>h1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+
+
+.search-wrap {
+    margin-bottom: 60px;
+}
+
+.search-wrap>.search-c>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 650px;
+    background: #F8F9FA;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+
+
+.search-wrap>.search-c>div>input {
+    width: 650px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    background: none;
+    outline: none;
+    padding: 20px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-wrap>.search-c>div>img {
+    cursor: pointer;
+}
+
+
+.search-wrap>.phones-c {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.search-wrap>.phones-c>ul {
+    display: flex;
+    align-items: center;
+    overflow: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.search-wrap>.phones-c>ul>li {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 200px;
+    border: 1px solid #C5C5C5;
+    background: #FFF;
+    transition: .3s;
+}
+
+.search-wrap>.phones-c>ul>li:hover {
+    background: greenyellow;
+}
+
+
+
+
+.miss-wrap>h1 {
+
+    text-align: center;
+    color: #000;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52.5px;
+}
+
+.miss-wrap {
+    background: #DCE5E2;
+    border-radius: 40px;
+    padding-top: 46px;
+    margin-bottom: 40px;
+    width: 935px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.miss-wrap>p {
+    text-align: center;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin-bottom: 14px;
+}
+
+
+.miss-wrap>.miss-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.miss-wrap>.miss-c>.miss-input {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.miss-wrap>.miss-c>.miss-input>input {
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 54px 0px 0px 54px;
+    padding: 16px 184px 16px 32px;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+.miss-wrap>.miss-c>.miss-input>button {
+
+    outline: none;
+    border: 1px;
+    border-radius: 0px 200px 200px 0px;
+    padding: 16px 33px;
+    background: #000;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.miss-wrap>.miss-c>.miss-input>button:hover {
+    background: transparent;
+    border-radius: 0px 200px 200px 0px;
+    color: #000;
+    border: 1px solid grey;
+}
+
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.footer>.california-c {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer>.california-c>h1 {
+
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.footer>.california-c>p {
+    color: #000;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    width: 280px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+
+
+.footer>.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+
+.footer>.footer-info>ul>h1 {
+    color: #000;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+
+
+
+.footer>.footer-info>ul>li {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    line-height: 21.6px;
+    cursor: pointer;
+}
+
+
+
+footer{
+    margin-top: 70px;
+}
+
+footer>.zaewoo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+footer>.zaewoo>.made-c1{
+    display: flex;
+    align-items: center;
+}
+
+
+
+footer>.zaewoo>.made-c2
+{
+    display: flex;
+    align-items: center;
+}
